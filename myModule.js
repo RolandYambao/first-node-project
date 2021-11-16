@@ -10,3 +10,8 @@ console.log(helloClass());
 // node index.js
 // npm run start
 // link inside of index
+
+// export the function
+module.exports = {
+    helloClass,
+}

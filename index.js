@@ -11,3 +11,6 @@ const person = {
 };
 console.log(numbers);
 console.log(person.foods);
+
+const myModule = require("./myModule");
+console.log(myModule);
