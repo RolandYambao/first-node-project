@@ -3,7 +3,7 @@ function helloClass() {
 }
 
 // run this function
-console.log(helloClass());
+//console.log(helloClass());
 
 // *** how would we run this function ****
 // consol elog it

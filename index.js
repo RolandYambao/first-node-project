@@ -12,5 +12,8 @@ const person = {
 console.log(numbers);
 console.log(person.foods);
 
-const myModule = require("./myModule");
-console.log(myModule);
+const somethingElse = require("./myModule");
+console.log(somethingElse);
+
+somethingElse.helloClass(); // {string}
+console.log(somethingElse.helloClass()); // => "Good morning. Please put sonic emoji in Slack"
